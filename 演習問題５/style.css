@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+header h1 {
+  padding: 25px 0 0 25px;
+}
+.main-visual {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main-box {
+  height: auto;
+  width: 840px;
+  justify-content: flex-start;
+}
+.main-text {
+  padding-bottom: 30px;
+}
+.main-img {
+  padding: 30px 0;
+}
+.container {
+  border-bottom: 1px solid #6c6b6b;
+}

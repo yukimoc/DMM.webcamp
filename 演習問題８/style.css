@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #ff9a4b;
+  width: 100%;
+}
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+  width: 100%;
+}
+.section-box {
+  display: flex;
+  margin: 50px auto;
+  width: 960px;
+}
+section {
+  padding: 10px;
+  width: 300px;
+  margin-right: 30px;
+  background-color: #eeeeee;
+  position: relative;
+}
+section:nth-last-child() {
+  margin-right: 0;
+}
+.img-box1 {
+  background-image: url(./chapter10_exercise/img/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+.img-box2 {
+  background-image: url(./chapter10_exercise/img/flow02.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+.img-box3 {
+  background-image: url(./chapter10_exercise/img/flow03.png);
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+h3 {
+  margin: 15px 0 5px 0;
+}
+.step {
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+.link {
+  color: gray;
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .section-box {
+    display: block;
+    width: 100%;
+  }
+  section {
+    width: 90%;
+    margin: 0 5% 20px 5%;
+  }
+  section:nth-last-child {
+    margin-bottom: 0;
+  }
+}
